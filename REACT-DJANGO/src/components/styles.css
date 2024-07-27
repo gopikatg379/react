@@ -1,0 +1,95 @@
+/* styles.css */
+.login-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+    background: url('src/assets/media/20210408113322.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+#head{
+    color: white;
+}
+.card {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 25rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #c44b4b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+#pwd,#user{
+    color: white;
+}
+#author,#pwd1{
+    border: 1px solid white;
+}
+#btn{
+    width: 120px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-weight: bold;
+    height: 50px;
+    color: white;
+    margin-left: 40px;
+}
+
+.alert-danger {
+    width: 100%;
+    padding: 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    color: #721c24;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#author::placeholder  {
+    color: white;
+}
+#pwd1::placeholder{
+    color: white;
+}
